@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Slideshow View</h2>
+    <div class="slideshow-container">
+        <span class="prev" onclick="changeImage(-1)">&#10094;</span>
+        <img id="main-img" class="main-image" src="https://via.placeholder.com/600x400">
+        <span class="next" onclick="changeImage(1)">&#10095;</span>
+    </div>
+    <div class="thumbnails">
+        <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_960_720.jpg" onclick="setImage(0)">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/033/352/415/small_2x/bright-reflection-macro-background-close-ai-generated-photo.jpg" onclick="setImage(1)">
+        <img src="https://i.pinimg.com/originals/b5/6c/3c/b56c3ca44ed0e173e11ef11d9a7a4827.jpg" onclick="setImage(2)">
+        <img src="https://images8.alphacoders.com/449/449444.jpg" onclick="setImage(3)">
+        <img src="https://i.ytimg.com/vi/IUN664s7N-c/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCK23ncwZjjd8IisSnQeSXEp5ZjXw" onclick="setImage(4)">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
